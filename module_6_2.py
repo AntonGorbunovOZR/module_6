@@ -26,7 +26,7 @@ class Vehicle:
         if n_color.casefold() in (color.casefold() for color in self.__COLOR_VARIANTS):
             self.__color = n_color
         else:
-            print(f'Нельзя сменить цвет на {self.set_color}')
+            print(f'Нельзя сменить цвет на {n_color}')
 
 
 class Sedan(Vehicle):
